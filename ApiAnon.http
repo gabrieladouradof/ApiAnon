@@ -1,0 +1,6 @@
+@ApiAnon_HostAddress = http://localhost:5070
+
+GET {{ApiAnon_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
