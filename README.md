@@ -1,8 +1,9 @@
-Projeto de Anonimização de Dados
+#Projeto de Anonimização de Dados
 Este projeto está sendo desenvolvido com o objetivo de anonimizar dados pessoais, especificamente nomes e CPFs, utilizando funções hash e a API do OpenAI para gerar nomes falsos. O projeto segue a arquitetura CQRS (Command Query Responsibility Segregation) e está organizado em pastas para Domínio, API e Infraestrutura.
 
-Funcionalidades
-Anonimização de Dados
+#Funcionalidades
+
+*Anonimização de Dados*
 Receber dados originais: O endpoint recebe nome e CPF originais.
 Gerar dados anonimizados: Os dados são passados por uma função hash para anonimização e, em seguida, a API do OpenAI é utilizada para gerar nomes falsos.
 Retornar dados anonimizados: O endpoint retorna o nome e CPF anonimizados.
