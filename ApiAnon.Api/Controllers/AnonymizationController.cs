@@ -7,8 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 namespace ApiAnon.Api.Controllers 
 {
 
+[Microsoft.AspNetCore.Mvc.Route("api/[Controller]")]
 [ApiController]
-[Route("api/")]
+
 
 public class UserController : ControllerBase
 {
@@ -20,14 +21,14 @@ public class UserController : ControllerBase
         this.logger = logger;
     }
     
-    [HttpPost("anonymizeduser")]
-     public IActionResult GenerateFakeName([FromBody] User user, UserAnonymized userAnonymized)
-     {
+    // [HttpPost("anonymizeduser")]
+    //  public IActionResult GenerateFakeName([FromBody] User user, UserAnonymized userAnonymized)
+    //  {
         
-     }
+    //  }
 
     //pra retornar o nome original atraves da anonimizacao
-    [HttpGet("getoriginalname")]
+    // [HttpGet("getoriginalname")]
     
 }
     

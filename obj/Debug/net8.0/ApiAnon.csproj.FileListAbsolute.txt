@@ -107,3 +107,6 @@ C:\dev\ApiAnon\ApiAnon\obj\Debug\net8.0\refint\ApiAnon.dll
 C:\dev\ApiAnon\ApiAnon\obj\Debug\net8.0\ApiAnon.pdb
 C:\dev\ApiAnon\ApiAnon\obj\Debug\net8.0\ApiAnon.genruntimeconfig.cache
 C:\dev\ApiAnon\ApiAnon\obj\Debug\net8.0\ref\ApiAnon.dll
+C:\dev\ApiAnon\ApiAnon\obj\Debug\net8.0\ApiAnon.sourcelink.json
+C:\dev\ApiAnon\ApiAnon\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\dev\ApiAnon\ApiAnon\bin\Debug\net8.0\OpenAI_API.dll
