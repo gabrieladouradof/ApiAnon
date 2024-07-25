@@ -1,12 +1,11 @@
 using ApiAnon.Domain.Entities;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
-//using ApiAnon.Infra.Services;
+using ApiAnon.Infra.Services;
 
-//controllers de anoninimizacao
 namespace ApiAnon.Api.Controllers 
 {
-
+//specifying mvc namespace in route
 [Microsoft.AspNetCore.Mvc.Route("api/[Controller]")]
 [ApiController]
 
@@ -20,16 +19,7 @@ public class UserController : ControllerBase
     {
         this.logger = logger;
     }
-    
-    // [HttpPost("anonymizeduser")]
-    //  public IActionResult GenerateFakeName([FromBody] User user, UserAnonymized userAnonymized)
-    //  {
-        
-    //  }
-
-    //pra retornar o nome original atraves da anonimizacao
-    // [HttpGet("getoriginalname")]
-    
+  
 }
     
 }
