@@ -15,6 +15,6 @@ namespace ApiAnon.Infra.Data
 
         // Define o DbSet para as entidades
         public DbSet<User> Users { get; set; }
-        public DbSet<UserAnonymized> UsersAnonymized { get; set; }
+        public DbSet<AnonymizedUser> AnonymizedUsers { get; set; }
     }
 }
