@@ -19,15 +19,27 @@ Hashing: Utiliza a função hash SHA256 para anonimizar dados, garantindo que os
 API do OpenAI: Gera nomes falsos realistas, mantendo o gênero do nome original.
 
 # Arquitetura
+
 # Domínio
+ 
 Entidades: Definição das entidades principais do sistema, como User.
+
 Serviços: Lógica de negócio relacionada à anonimização de dados.
+
 Interfaces: Definição de contratos para serviços, como IOpenAiService.
-Infraestrutura
+
+
+
+# Infraestrutura
 Data: Configuração do contexto de banco de dados e migrações.
+
 Serviços: Implementação dos serviços definidos no domínio, incluindo a integração com a API do OpenAI.
-API
+
+
+# API
+
 Controllers: Definição dos endpoints da API, como AnonymizationController.
+
 Programação e Configuração: Configuração do aplicativo, incluindo injeção de dependência, middleware e Swagger para documentação da API.
 
 # Arquivos Importantes
